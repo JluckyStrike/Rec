@@ -2,9 +2,9 @@ package com.stream.knapsack;
 
 public class Main {
 
-    static int[] values = new int[] {894, 260, 392, 281, 27};
-    static int[] weights = new int[] {8, 6, 4, 0, 21};
-    static int W = 30;
+    static int[] values = new int[] {500, 260, 80};
+    static int[] weights = new int[] {5, 6, 15};
+    static int W = 15;
 
     private static int knapsack(int i, int W) {
         if (i < 0) {
